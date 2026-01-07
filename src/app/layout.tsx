@@ -1,7 +1,7 @@
 'use client'
 import "./globals.css";
-import Navbar from "@/components/layout/Navbar";
-import Footer from "@/components/layout/Footer";
+import Navbar from "../components/layout/Navbar";
+import Footer from "../components/layout/Footer";
 
 
 export default function RootLayout({
@@ -11,7 +11,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-zinc-950 text-zinc-100">
+      <body className="bg-background text-foreground">
         <Navbar />
         <main className="min-h-screen">{children}</main>
         <Footer />
