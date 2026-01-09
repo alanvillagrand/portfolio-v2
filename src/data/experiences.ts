@@ -12,7 +12,7 @@ const experiences: Experience[] = [
     title: "Undergraduate Researcher",
     company: "Baylor University",
     period: "Aug 2025 - Dec 2025",
-    description: "Developed and evaluated a machine learning model to predict the user Quality of Experience (QoE) for 3D point cloud data using Python and scikit-learn, improving prediction accuracy for point cloud streaming systems",
+    description: "Developed and evaluated a machine learning model to predict the user Quality of Experience (QoE) for 3D point cloud data using Python and scikit-learn, improving prediction accuracy for point cloud streaming systems.",
     tags: ["Python", "scikit-learn",],
   },
 ];

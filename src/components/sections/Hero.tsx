@@ -2,7 +2,7 @@
 import { ArrowDown } from "lucide-react";
 import { ImageWithFallback } from "../ui/ImageWithFallBack";
 import Image from "next/image";
-import ProfilePicture from "@/assests/profile-picture.png"
+import ProfilePicture from "@/assets/profile-picture.png"
 
 export default function Hero() {
   return (
@@ -18,18 +18,18 @@ export default function Hero() {
           </div>
 
           <div className="flex-1">
-            <h1 className="mb-4 text-primary">Hi, I'm Alan Villagrand 👋</h1>
+            <h1 className="mb-4 text-primary">Hello, World! 👋</h1>
             <p className="text-muted-foreground mb-8">
-              Full Stack Developer passionate about creating elegant
-              solutions to complex problems. I specialize in
-              building modern web applications with a focus on clean
-              code and exceptional user experiences.
+              I'm Alan Villagrand, a computer science student at Baylor University and software engineering intern at BIP.
+              Skilled in <span className="text-primary">C++</span>, <span className="text-primary">Rust</span>,
+              <span className="text-primary"> Java</span>, and <span className="text-primary">Python</span>,
+              with a strong foundation in networking, operating systems, and scalable software design.
+              While my expertise lies in backend development, I also have experience in developing frontend applications, including this website!
             </p>
             <p className="text-muted-foreground mb-8">
-              Currently crafting digital experiences and turning
-              ideas into reality through code. When I'm not coding,
-              you'll find me exploring new technologies or
-              contributing to open source projects.
+              Outside of academics and work, I enjoy taking on side projects that challenge me to learn something new. Whether that's experimenting
+              with a new language, exploring a programming concept, or building tools that solve real problems, I'm always looking for opportunities
+              to grow as an engineer and take on challenging, yet impactful work.
             </p>
             <a href="#experience" className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors">
               View my work
