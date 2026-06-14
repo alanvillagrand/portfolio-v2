@@ -20,16 +20,16 @@ export default function Hero() {
           <div className="flex-1">
             <h1 className="mb-4 text-primary">Hello, World! 👋</h1>
             <p className="text-muted-foreground mb-8">
-              I'm Alan Villagrand, a computer science student at Baylor University and software engineering intern at BIP.
+              I'm Alan Villagrand, an incoming software engineer at Citi.
               Skilled in <span className="text-primary">C++</span>, <span className="text-primary">Rust</span>,
               <span className="text-primary"> Java</span>, and <span className="text-primary">Python</span>,
               with a strong foundation in networking, operating systems, and scalable software design.
               While my expertise lies in backend development, I also have experience in developing frontend applications, including this website!
             </p>
             <p className="text-muted-foreground mb-8">
-              Outside of academics and work, I enjoy taking on side projects that challenge me to learn something new. Whether that's experimenting
-              with a new language, exploring a programming concept, or building tools that solve real problems, I'm always looking for opportunities
-              to grow as an engineer and take on challenging, yet impactful work.
+              In my free time, I enjoy taking on side projects that challenge me to learn something new. Whether that's experimenting
+              with a new language, tinkering with hardware, or building tools that solve real problems, I'm always looking for opportunities
+              to grow as an engineer.
             </p>
             <a href="#experience" className="inline-flex items-center gap-2 text-primary hover:text-primary/80 transition-colors">
               View my work
